@@ -11,6 +11,6 @@ password = ''
 
 for i in range(int(ask)):                           #Repeat the process a certain amount of times
     character = secrets.choice(letters_digits)      #Generate one character
-    password += digit                               #Add the digit to the password
+    password += character                               #Add the character to the password
 
 print(password)
